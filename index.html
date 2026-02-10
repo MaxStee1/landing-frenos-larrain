@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="theme-color" content="#2c3e50">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <title>Frenos Larraín - Especialistas en Frenos La Serena</title>
+    <meta name="description" content="Especialistas en frenos y seguridad vehicular en La Serena. Diagnóstico, repuestos y asesoría experta. WhatsApp +56 9 6166 3636">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- HEADER / NAV -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Frenos Larraín</h1>
+                    <span class="logo-subtitle">Taller Especializado</span>
+                </div>
+                <nav class="nav">
+                    <a href="#servicios">Servicios</a>
+                    <a href="#contacto">Contacto</a>
+                    <a href="#" class="btn-whatsapp-nav" id="whatsapp-nav">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" fill="currentColor"/>
+                        </svg>
+                        WhatsApp
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-text">
+                    <div class="badge">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M5 8L7 10L11 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                        </svg>
+                        La Serena
+                    </div>
+                    <h2 class="hero-title">Especialistas en frenos y seguridad vehicular</h2>
+                    <p class="hero-description">
+                        Repuestos, diagnóstico y asesoría experta para tu auto. No vendemos frenos por vender: analizamos tu vehículo, tu tipo de conducción y tus necesidades para recomendar la mejor solución con criterio técnico y foco en seguridad.
+                    </p>
+                    <div class="hero-ctas">
+                        <a href="#" class="btn btn-primary" id="whatsapp-hero">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" fill="currentColor"/>
+                            </svg>
+                            Cotiza ahora
+                        </a>
+                        <a href="#servicios" class="btn btn-secondary">
+                            Ver servicios
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-stack">
+                        <img src="img/frenos en vehiculo.png" alt="Taller Frenos Larraín" class="stack-img stack-img-1">
+                        <img src="img/frenos.png" alt="Servicio de frenos" class="stack-img stack-img-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROPUESTA DE VALOR -->
+    <section class="value-prop">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Aquí la seguridad es el comienzo</span>
+                <h2>Por qué elegir Frenos Larraín</h2>
+                <p>Los frenos son un elemento crítico para la seguridad de tu vehículo. Trabajamos con un enfoque técnico, priorizando diagnósticos claros y recomendaciones responsables.</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <path d="M8 16L14 22L24 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Asesoría técnica real</h3>
+                    <p>No venta por precio. Te recomendamos según tus necesidades reales.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="16" cy="16" r="6" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>Repuestos confiables</h3>
+                    <p>Para múltiples marcas y modelos, con criterio técnico.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <path d="M16 4V28M4 16H28" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                            <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Diagnóstico honesto</h3>
+                    <p>Explicado con claridad para evitar gastos innecesarios.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <path d="M10 2C6.13 2 3 5.13 3 9c0 5.25 7 11 7 11s7-5.75 7-11c0-3.87-3.13-7-7-7z" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="10" cy="9" r="2.5" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Ubicación central</h3>
+                    <p>En La Serena, con fácil acceso y cerca de todo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">¿Qué hacemos?</span>
+                <h2>Nuestros Servicios</h2>
+                <p>Soluciones completas para el sistema de frenado de tu vehículo</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <rect x="8" y="10" width="16" height="14" rx="2" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 10V8C12 6.89543 12.8954 6 14 6H18C19.1046 6 20 6.89543 20 8V10" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Venta de repuestos</h3>
+                    <p>Discos, pastillas y componentes para distintas marcas y modelos, con asesoría técnica especializada.</p>
+                    <a href="#" class="service-cta" data-service="stock">Consulta stock →</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="16" cy="16" r="6" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>Diagnóstico de frenos</h3>
+                    <p>Revisión completa del sistema para determinar el estado real y evitar gastos innecesarios.</p>
+                    <a href="#" class="service-cta" data-service="diagnostico">Agenda diagnóstico →</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <path d="M8 16L14 22L24 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Instalación y reparación</h3>
+                    <p>Servicio técnico enfocado en seguridad y durabilidad, realizado por especialistas.</p>
+                    <a href="#" class="service-cta" data-service="reparacion">Coordina atención →</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <path d="M16 4V28M4 16H28" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                            <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Asesoría personalizada</h3>
+                    <p>Orientación según tipo de vehículo, uso diario y presupuesto.</p>
+                    <a href="#" class="service-cta" data-service="asesoria">Escríbenos →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CÓMO TRABAJAMOS -->
+    <section class="how-we-work">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Proceso simple y transparente</span>
+                <h2>Cómo Trabajamos</h2>
+            </div>
+
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3>Nos escribes</h3>
+                    <p>Contáctanos por WhatsApp con tu consulta o problema</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3>Analizamos</h3>
+                    <p>Evaluamos tu consulta o el estado de tu vehículo</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3>Recomendamos</h3>
+                    <p>Te ofrecemos la mejor opción en frenos para tu caso</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <h3>Agendas</h3>
+                    <p>Compras o agendas tu servicio con información clara</p>
+                </div>
+            </div>
+
+            <div class="cta-center">
+                <a href="#" class="btn btn-primary" id="whatsapp-steps">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" fill="currentColor"/>
+                    </svg>
+                    Inicia tu consulta ahora
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONFIANZA -->
+    <section class="trust">
+        <div class="container">
+            <div class="trust-content">
+                <h2>Cuando se trata de frenos, la calidad sí importa</h2>
+                <p>Creemos que un buen servicio comienza con un diagnóstico correcto. Nuestro compromiso es entregar soluciones seguras, claras y responsables para cada cliente en La Serena.</p>
+                <a href="#" class="btn btn-secondary" id="whatsapp-trust">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" fill="currentColor"/>
+                    </svg>
+                    Confía tu auto a especialistas
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO / CTA -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-text">
+                    <h2>No dejes tu seguridad al azar</h2>
+                    <p>Si necesitas diagnóstico, repuestos o reparación de frenos en La Serena, habla directamente con especialistas.</p>
+                    
+                    <a href="#" class="btn-whatsapp-large" id="whatsapp-contact">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" fill="currentColor"/>
+                        </svg>
+                        <span>
+                            <strong>Chatea con nosotros</strong>
+                            <small>+56 9 6166 3636</small>
+                        </span>
+                    </a>
+
+                    <div class="contact-info-items">
+                        <div class="info-item">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M10 2C6.13 2 3 5.13 3 9c0 5.25 7 11 7 11s7-5.75 7-11c0-3.87-3.13-7-7-7z" stroke="currentColor" stroke-width="1.5"/>
+                                <circle cx="10" cy="9" r="2.5" stroke="currentColor" stroke-width="1.5"/>
+                            </svg>
+                            <div>
+                                <strong>Dirección</strong>
+                                <p>Larraín Alcalde 3270, La Serena</p>
+                                <small>Ubicación céntrica, fácil acceso</small>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <circle cx="10" cy="10" r="9" stroke="currentColor" stroke-width="1.5"/>
+                                <path d="M10 5V10L13 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                            <div>
+                                <strong>Horarios</strong>
+                                <p>Lunes a Viernes: 9:00 - 18:00 hrs</p>
+                                <p>Sábado: 9:00 - 13:00 hrs</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-reviews">
+                    <div class="review-box">
+                        <div class="review-header">
+                            <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+                                <path d="M30 10L34.5 23.5H48.5L37.5 31.5L42 45L30 37L18 45L22.5 31.5L11.5 23.5H25.5L30 10Z" fill="#FFB800"/>
+                            </svg>
+                        </div>
+                        <h3>¿Ya fuiste atendido?</h3>
+                        <p>Ayúdanos dejando tu reseña en Google. Tu opinión es muy valiosa para nosotros y otros clientes.</p>
+                        <a href="#" class="btn btn-review" id="google-review-btn">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M10 2L12.5 7.5L18.5 8.3L14.2 12.4L15.2 18.3L10 15.5L4.8 18.3L5.8 12.4L1.5 8.3L7.5 7.5L10 2Z" fill="currentColor"/>
+                            </svg>
+                            Dejar reseña
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- REDES SOCIALES -->
+    <section class="social">
+        <div class="container">
+            <div class="social-header">
+                <h3>Síguenos en Instagram</h3>
+                <p>Publicamos consejos, trabajos realizados y novedades del taller</p>
+            </div>
+            
+            <div class="social-links">
+                <a href="https://www.instagram.com/frenos.larrain/" target="_blank" class="social-link instagram">
+                    <div>
+                        <strong>Instagram</strong>
+                        <span>@frenos.larrain</span>
+                    </div>
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                        <rect x="6" y="6" width="20" height="20" rx="5" stroke="currentColor" stroke-width="2"/>
+                        <circle cx="16" cy="16" r="5" stroke="currentColor" stroke-width="2"/>
+                        <circle cx="23" cy="9" r="1.5" fill="currentColor"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Frenos Larraín</h3>
+                    <p>Especialistas en frenos y seguridad vehicular en La Serena</p>
+                    <p class="footer-address">Larraín Alcalde 3270, La Serena</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Enlaces</h4>
+                        <a href="#servicios">Servicios</a>
+                        <a href="#contacto">Contacto</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Contacto</h4>
+                        <a href="https://wa.me/56961663636" target="_blank">WhatsApp: +56 9 6166 3636</a>
+                        <a href="https://www.instagram.com/frenos.larrain/" target="_blank">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Frenos Larraín · La Serena, Chile · Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Configuración de WhatsApp
+        // IMPORTANTE: Reemplaza con tu número de WhatsApp (formato: 56912345678)
+        const WHATSAPP_NUMBER = '56961663636';
+        const WHATSAPP_MESSAGE = 'Hola! Me gustaría consultar sobre sus servicios de frenos';
+        const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
+
+        // Configuración de Google Reviews
+        // IMPORTANTE: Reemplaza con tu enlace de Google Reviews
+        const GOOGLE_REVIEW_URL = '#'; // Cambia esto
+
+        // Asignar enlaces de WhatsApp
+        document.getElementById('whatsapp-nav').href = WHATSAPP_URL;
+        document.getElementById('whatsapp-hero').href = WHATSAPP_URL;
+        document.getElementById('whatsapp-steps').href = WHATSAPP_URL;
+        document.getElementById('whatsapp-trust').href = WHATSAPP_URL;
+        document.getElementById('whatsapp-contact').href = WHATSAPP_URL;
+        
+        // CTAs de servicios
+        document.querySelectorAll('.service-cta').forEach(link => {
+            const service = link.getAttribute('data-service');
+            const messages = {
+                'stock': 'Hola! Me gustaría consultar sobre stock de repuestos',
+                'diagnostico': 'Hola! Quisiera agendar un diagnóstico de frenos',
+                'reparacion': 'Hola! Necesito coordinar una reparación de frenos',
+                'asesoria': 'Hola! Quisiera recibir asesoría sobre frenos para mi vehículo'
+            };
+            link.href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(messages[service])}`;
+        });
+        
+        // Asignar enlace de Google Reviews
+        document.getElementById('google-review-btn').href = GOOGLE_REVIEW_URL;
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href !== '#' && href.startsWith('#')) {
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    if (target) {
+                        const headerOffset = 80;
+                        const elementPosition = target.getBoundingClientRect().top;
+                        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+                        window.scrollTo({
+                            top: offsetPosition,
+                            behavior: 'smooth'
+                        });
+                    }
+                }
+            });
+        });
+
+        // Header scroll effect
+        let lastScroll = 0;
+        const header = document.querySelector('.header');
+
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            
+            if (currentScroll > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+            
+            lastScroll = currentScroll;
+        });
+
+        // Intersection Observer para animaciones
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        // Observar elementos
+        document.querySelectorAll('.service-card, .step-card, .stack-img').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
