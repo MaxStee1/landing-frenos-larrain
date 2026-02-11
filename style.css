@@ -1011,8 +1011,9 @@ input, select, textarea {
         padding: 6rem 0 3rem;
     }
     
+    /* Ocultar imágenes en móviles */
     .hero-image {
-        height: 350px;
+        display: none;
     }
     
     .hero-title {
@@ -1136,8 +1137,9 @@ input, select, textarea {
         padding: 5rem 0 2rem;
     }
     
+    /* Imágenes ocultas en móviles pequeños */
     .hero-image {
-        height: 300px;
+        display: none;
     }
     
     .hero-title {
@@ -1238,16 +1240,13 @@ input, select, textarea {
         padding: 5rem 0 2rem;
     }
     
+    /* Imágenes ocultas también en landscape móvil */
     .hero-image {
-        height: 280px;
+        display: none;
     }
     
     .hero-grid {
-        grid-template-columns: 1fr 1fr;
-    }
-    
-    .hero-image {
-        order: 0;
+        grid-template-columns: 1fr;
     }
 }
 
