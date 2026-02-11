@@ -769,10 +769,6 @@ input, select, textarea {
     border-color: #E1306C;
 }
 
-.contact-link {
-    flex-direction: column;
-}
-
 .contact-link svg {
     flex-shrink: 0;
 }
@@ -1192,11 +1188,6 @@ input, select, textarea {
     .contact-subtitle,
     .trust-content p {
         font-size: 0.95rem;
-    }
-    
-    .info-item {
-        flex-direction: row;
-        align-items: flex-start;
     }
     
     .review-box {
